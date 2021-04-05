@@ -14,7 +14,7 @@ public class menampilkan_kelipatan_dan_perkalian_dua {
         for (int i = 0; i <= 100;) { // batas perulangan jika i bernilai 100 kebawah
             System.out.print(" " +i +" ");
             i = i + 2; // setiap nilai i nya ditambah 2
-            if(i%7 == 0) {
+            if(i%7 == 0) { // membuat baris berikutnya jika i modulo 7 bersisa 0
                 System.out.println("");
             }
         }
