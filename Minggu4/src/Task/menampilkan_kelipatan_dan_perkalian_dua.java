@@ -11,10 +11,10 @@ public class menampilkan_kelipatan_dan_perkalian_dua {
         System.out.println("Bilangan kelipatan 2 (0-100)");
         System.out.println("============================");
         
-        for (int i = 0; i <= 100;) { // batas perulangan jika j bernilai 100 kebawah
+        for (int i = 0; i <= 100;) { // batas perulangan jika i bernilai 100 kebawah
             System.out.print(" " +i +" ");
-            i = i + 2; // setiap nilai j nya ditambah 2
-            if(i%7 == 0) {
+            i = i + 2; // setiap nilai i nya ditambah 2
+            if(i%7 == 0) { // membuat baris berikutnya jika i modulo 7 bersisa 0
                 System.out.println("");
             }
         }
@@ -29,8 +29,8 @@ public class menampilkan_kelipatan_dan_perkalian_dua {
         int j = 2;
         do {
             System.out.print(" " +j +" ");
-            j = j * 2; // setiap nilai i nya dikalikan 2
-        } while(j <= 100); // batas perulangan jika i bernilai 100 kebawah
+            j = j * 2; // setiap nilai j nya dikalikan 2
+        } while(j <= 100); // batas perulangan jika j bernilai 100 kebawah
         System.out.println(""); // end
     }
 }
