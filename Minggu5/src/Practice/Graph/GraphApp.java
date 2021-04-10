@@ -19,7 +19,7 @@ public class GraphApp {
         theGraph.addEdge(2, 3); // CD
         theGraph.addEdge(3, 4); // DE
         
-//        theGraph.bfs();
+        theGraph.bfs();
         
         theGraph.display();
      }
